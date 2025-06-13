@@ -1,4 +1,3 @@
-````markdown
 # Offline AI Chat
 
 This is a simple, locally-run AI chat application that uses **Ollama** to function entirely offline. The user interface is built with **React, TypeScript, and Vite**, and it uses **Shadcn UI** for its components. All chat data, including messages and threads, is stored locally in your browser using **Dexie.js**.
@@ -51,10 +50,7 @@ After installation, ensure the Ollama application is running in the background.
 
 Next, you need to pull the AI model that the application will use. This project is configured to use `deepseek-r1:1.5b`. Open your terminal and run the following command:
 
-```bash
 ollama pull deepseek-r1:1.5b
-```
-````
 
 > **Note**: You can use other models from the [Ollama Library](https://ollama.com/library). If you choose a different model, make sure to update the `model` name in `src/pages/ChatPage.tsx`.
 
