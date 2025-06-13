@@ -50,7 +50,7 @@ After installation, ensure the Ollama application is running in the background.
 
 Next, you need to pull the AI model that the application will use. This project is configured to use `deepseek-r1:1.5b`. Open your terminal and run the following command:
 
-ollama pull deepseek-r1:1.5b
+ollama run deepseek-r1:1.5b
 
 > **Note**: You can use other models from the [Ollama Library](https://ollama.com/library). If you choose a different model, make sure to update the `model` name in `src/pages/ChatPage.tsx`.
 
@@ -59,7 +59,7 @@ ollama pull deepseek-r1:1.5b
 Clone this repository to your local machine.
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone <https://github.com/adidarma24/Offline-AI-Chat>
 cd offline-ai-chat
 ```
 
